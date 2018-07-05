@@ -1,0 +1,15 @@
+micronaut:
+    application:
+        name: benchmark
+    server:
+        port: 8080
+        serverHeader: Micronaut
+jpa:
+    default:
+        packages-to-scan:
+          - 'benchmark.entity'
+        properties:
+            hibernate:
+                hbm2ddl:
+                    auto: validate
+                show_sql: false

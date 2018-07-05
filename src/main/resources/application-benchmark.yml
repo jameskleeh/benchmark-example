@@ -1,0 +1,3 @@
+postgres:
+    reactive:
+        uri: postgresql://benchmarkdbuser:benchmarkdbpass@localhost:5432/hello_world
